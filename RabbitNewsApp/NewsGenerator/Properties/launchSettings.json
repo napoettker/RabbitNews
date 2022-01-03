@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NewsGenerator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

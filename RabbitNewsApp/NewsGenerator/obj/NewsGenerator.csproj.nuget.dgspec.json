@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\NewsGenerator\\NewsGenerator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\RabbitNews.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\RabbitNews.Application.csproj",
+        "projectName": "RabbitNews.Application",
+        "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\RabbitNews.Application.csproj",
+        "packagesPath": "C:\\Users\\poettker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\poettker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj": {
+                "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\NewsGenerator\\NewsGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\NewsGenerator\\NewsGenerator.csproj",
+        "projectName": "NewsGenerator",
+        "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\NewsGenerator\\NewsGenerator.csproj",
+        "packagesPath": "C:\\Users\\poettker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\NewsGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\poettker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj": {
+                "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj"
+              },
+              "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\RabbitNews.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\RabbitNews.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj",
+        "projectName": "RabbitNews.Domain",
+        "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj",
+        "packagesPath": "C:\\Users\\poettker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\poettker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\RabbitNews.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\RabbitNews.Infrastructure.csproj",
+        "projectName": "RabbitNews.Infrastructure",
+        "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\RabbitNews.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\poettker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\poettker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\RabbitNews.Application.csproj": {
+                "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\Application\\RabbitNews.Application.csproj"
+              },
+              "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj": {
+                "projectPath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

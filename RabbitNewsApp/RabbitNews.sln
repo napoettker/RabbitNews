@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsGenerator", "NewsGenerator\NewsGenerator.csproj", "{BFB0A343-2452-4711-BD83-6DB9641CB1F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitNews.Web", "NewsWebApp\RabbitNews.Web.csproj", "{02C9880C-5D9E-47A1-B26B-D1B7239CD0F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitNews.Application", "Application\RabbitNews.Application.csproj", "{DEE8F77E-4548-4923-BC18-C18B3B9388FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitNews.Infrastructure", "RabbitNews.Infrastructure\RabbitNews.Infrastructure.csproj", "{6AAB23C8-AFF0-4C9D-9909-5CAF77F7C77F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitNews.Domain", "RabbitNews.Domain\RabbitNews.Domain.csproj", "{EAC77638-4E50-40B2-A300-D73AE9E12ADC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FFCDAD13-4E49-49EC-924E-A504C00C949B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB0A343-2452-4711-BD83-6DB9641CB1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB0A343-2452-4711-BD83-6DB9641CB1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB0A343-2452-4711-BD83-6DB9641CB1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB0A343-2452-4711-BD83-6DB9641CB1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C9880C-5D9E-47A1-B26B-D1B7239CD0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C9880C-5D9E-47A1-B26B-D1B7239CD0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C9880C-5D9E-47A1-B26B-D1B7239CD0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C9880C-5D9E-47A1-B26B-D1B7239CD0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE8F77E-4548-4923-BC18-C18B3B9388FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE8F77E-4548-4923-BC18-C18B3B9388FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE8F77E-4548-4923-BC18-C18B3B9388FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE8F77E-4548-4923-BC18-C18B3B9388FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAB23C8-AFF0-4C9D-9909-5CAF77F7C77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAB23C8-AFF0-4C9D-9909-5CAF77F7C77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAB23C8-AFF0-4C9D-9909-5CAF77F7C77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAB23C8-AFF0-4C9D-9909-5CAF77F7C77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC77638-4E50-40B2-A300-D73AE9E12ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC77638-4E50-40B2-A300-D73AE9E12ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC77638-4E50-40B2-A300-D73AE9E12ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC77638-4E50-40B2-A300-D73AE9E12ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCDAD13-4E49-49EC-924E-A504C00C949B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCDAD13-4E49-49EC-924E-A504C00C949B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCDAD13-4E49-49EC-924E-A504C00C949B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCDAD13-4E49-49EC-924E-A504C00C949B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C06CACE-80CD-40FB-B0E8-C5AFF527541E}
+	EndGlobalSection
+EndGlobal

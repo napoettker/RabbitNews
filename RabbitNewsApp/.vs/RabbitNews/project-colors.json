@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfb0a343-2452-4711-bd83-6db9641cb1f0": {
+      "ProjectGuid": "bfb0a343-2452-4711-bd83-6db9641cb1f0",
+      "DisplayName": "NewsGenerator",
+      "ColorIndex": 0
+    },
+    "02c9880c-5d9e-47a1-b26b-d1b7239cd0f5": {
+      "ProjectGuid": "02c9880c-5d9e-47a1-b26b-d1b7239cd0f5",
+      "DisplayName": "RabbitNews.Web",
+      "ColorIndex": 1
+    },
+    "dee8f77e-4548-4923-bc18-c18b3b9388ff": {
+      "ProjectGuid": "dee8f77e-4548-4923-bc18-c18b3b9388ff",
+      "DisplayName": "RabbitNews.Application",
+      "ColorIndex": 2
+    },
+    "6aab23c8-aff0-4c9d-9909-5caf77f7c77f": {
+      "ProjectGuid": "6aab23c8-aff0-4c9d-9909-5caf77f7c77f",
+      "DisplayName": "RabbitNews.Infrastructure",
+      "ColorIndex": 3
+    },
+    "eac77638-4e50-40b2-a300-d73ae9e12adc": {
+      "ProjectGuid": "eac77638-4e50-40b2-a300-d73ae9e12adc",
+      "DisplayName": "RabbitNews.Domain",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "ffcdad13-4e49-49ec-924e-a504c00c949b": {
+      "ProjectGuid": "ffcdad13-4e49-49ec-924e-a504c00c949b",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

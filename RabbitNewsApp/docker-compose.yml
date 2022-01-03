@@ -1,0 +1,55 @@
+version: '3.4'
+
+services:
+  rabbitnews.web:
+    image: rabbitnewsweb
+    container_name: rabbitnewsweb
+    build:
+      context: .
+      dockerfile: NewsWebApp/Dockerfile
+    networks:
+      - rabbitnews  
+    depends_on:
+      - "mongo"
+      - "rabbitmq"
+  
+  mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "28017:27017"
+    networks:
+      - rabbitnews
+
+  rabbitnews.newsgenerator:
+    image: newsgenerator
+    container_name: rabbitnewsgen
+    build:
+      context: .
+      dockerfile: NewsGenerator/Dockerfile
+    networks:
+      - rabbitnews
+    depends_on:
+      - "mongo"
+      - "rabbitmq"
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    volumes:
+      - ./.docker/rabbitmq/etc/:/etc/rabbitmq/
+      - ./.docker/rabbitmq/data/:/var/lib/rabbitmq/
+      - ./.docker/rabbitmq/logs/:/var/log/rabbitmq/
+      - ./.docker/cert/:/root/.aspnet/DataProtection-Keys/
+      - ./rabbitmq-isolated.conf:/etc/rabbitmq/rabbitmq.config
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - rabbitnews
+    depends_on:
+      - "mongo"
+
+networks:
+  rabbitnews:
+    external: true

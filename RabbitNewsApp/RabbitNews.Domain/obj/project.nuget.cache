@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XMHT3Wi3TQ0FHGM5QB/6VP7WP5AavQr2uikaBdIBJ3TpVIbI+C9MuS1iND/trltdv+5ljU9atZ/dlLAEQkSxLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\poettker\\source\\repos\\RabbitNews\\RabbitNewsApp\\RabbitNews.Domain\\RabbitNews.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\poettker\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\poettker\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
+    "C:\\Users\\poettker\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
